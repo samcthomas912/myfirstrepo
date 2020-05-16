@@ -1,0 +1,47 @@
+nav{
+    height: 50px;
+    background-color: darkgrey;
+}
+
+.nav_element{
+    display:inline-block;
+    width: 14.3%;
+    height: 50px;
+    text-align: center;
+    background-color: gray;
+
+}
+
+.nav_text{
+    text-align: center;
+    color: white;
+}
+
+.side_nav{
+    display: block;
+    float:left;
+    background-color: blue;
+    width: 29%;
+    height: 700px;
+
+}
+
+.content_background{
+    display: block;
+    float: left;
+    background-color: teal;
+    width: 70%;
+    height: 700px;
+}
+
+.pet{
+    display: block;
+    background-color: orange;
+    height: 40%;
+}
+
+.stats{
+    display: block;
+    background-color: red;
+    height: 60%;
+}
