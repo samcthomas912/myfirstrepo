@@ -20,7 +20,6 @@ nav{
 .side_nav{
     display: block;
     float:left;
-    background-color: blue;
     width: 29%;
     height: 700px;
 
@@ -29,19 +28,64 @@ nav{
 .content_background{
     display: block;
     float: left;
-    background-color: teal;
     width: 70%;
     height: 700px;
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color:black;
 }
 
 .pet{
     display: block;
-    background-color: orange;
-    height: 40%;
+    height: 35%;
+    text-align: center;
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color:black;
 }
 
 .stats{
     display: block;
-    background-color: red;
-    height: 60%;
+    height: 65%;
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color:black;
+}
+
+.info{
+    padding-top:30px;
+    padding-left:40px;
+}
+
+img{
+    width:100px;
+    padding-top: 20px;
+}
+
+.about_shyguy{
+    margin: 10px;
+    height: 40%;
+    border-style:solid;
+    border-width: 1px;
+    border-color:black;
+}
+
+.left{
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 300px;
+}
+
+.pics{
+    text-align: center;
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color:black;
+    margin: 10px;
+}
+
+.pictures {
+    padding: 10px;
+    width: 150px;
 }
